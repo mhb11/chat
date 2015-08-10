@@ -37,7 +37,7 @@ SECRET_KEY = '$@g26q0b_p0#r7lif^%39oj-52lhm78z#rog(*n8f_z8(-6uxw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 if ON_HEROKU == '1':
-    DEBUG=False
+    DEBUG=True
 else:
     DEBUG=True
 
